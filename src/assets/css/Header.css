@@ -1,0 +1,12 @@
+#logo {
+    display: block;
+    width: 200px;
+    height: 140px;
+    object-fit: contain;
+    padding: 6px;
+}
+#hd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

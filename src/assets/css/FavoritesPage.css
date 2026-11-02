@@ -1,0 +1,8 @@
+.favorites-main {
+    padding: 20px;
+    height: auto;
+    min-height: 80vh;
+    background-color: #10141F;
+    display: flex;
+    flex-wrap: wrap;
+}

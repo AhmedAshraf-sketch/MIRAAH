@@ -1,0 +1,12 @@
+#ft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #D5D9E3;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#ft p {
+    margin: 0;
+}

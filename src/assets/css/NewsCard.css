@@ -1,0 +1,29 @@
+/*---------------------------Favorite Button---------------------------*/
+.news-item-dat a:last-child button {
+    min-width: 42px;
+    height: 38px;
+    padding: 0 10px;
+    background: #30394B;
+    color: #D5D9E3;
+    border: 1px solid #414C61;
+    border-radius: 8px;
+    font-size: 22px;
+    line-height: 1;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+/*---------------------------Favorite Hover---------------------------*/
+.news-item-dat a:last-child button:hover {
+    background: #4A2933;
+    color: #FF6677;
+    border-color: #DC3545;
+}
+
+/*---------------------------Active Favorite---------------------------*/
+.news-item-dat a:last-child button.fav {
+    background: #DC3545 !important;
+    color: #FFFFFF !important;
+    border-color: #DC3545;
+    box-shadow: 0 3px 12px rgba(220, 53, 69, 0.25);
+}

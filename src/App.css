@@ -1,0 +1,33 @@
+/*---------------------------Global Reset---------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+/*---------------------------Header---------------------------*/
+#hd {
+    height: 12vh;
+    background: #171C29;
+    border-bottom: 1px solid #30394B;
+}
+
+/*---------------------------Main Content---------------------------*/
+#mn {
+    height: auto;
+    min-height: 80vh;
+    padding: 2vh 2vw;
+    background: #10141F;
+    color: #E8EAF0;
+}
+
+/*---------------------------Footer---------------------------*/
+#ft {
+    height: 8vh;
+    background: #171C29;
+    color: #D5D9E3;
+    border-top: 1px solid #30394B;
+}

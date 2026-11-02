@@ -1,0 +1,137 @@
+/*---------------------------News Section Title---------------------------*/
+#mn > section > h2 {
+    position: relative;
+    width: fit-content;
+    margin: 12px auto 35px;
+    padding-bottom: 12px;
+    color: #F1F3F8;
+    font-size: 32px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+#mn > section > h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 55px;
+    height: 4px;
+    background: #F59E0B;
+    border-radius: 10px;
+}
+
+/*---------------------------News Cards List---------------------------*/
+.news-list {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 24px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/*---------------------------Single News Card---------------------------*/
+.news-list > li {
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background: #171C29;
+    border: 1px solid #30394B;
+    border-radius: 14px;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.2);
+    transition: transform 0.25s ease, border-color 0.25s ease;
+}
+
+.news-list > li:hover {
+    transform: translateY(-5px);
+    border-color: #8B6421;
+}
+
+/*---------------------------News Image---------------------------*/
+.news-item-img {
+    width: 100%;
+    height: 190px;
+    flex: none;
+    overflow: hidden;
+    background: #252D3D;
+}
+
+.news-item-img img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*---------------------------News Data---------------------------*/
+.news-item-dat {
+    width: 100%;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 18px;
+    text-align: right;
+}
+
+/*---------------------------News Title---------------------------*/
+.news-title {
+    width: 100%;
+    margin: 0;
+    color: #F1F3F8;
+    font-size: 19px;
+    line-height: 1.6;
+}
+
+/*---------------------------News Date---------------------------*/
+.news-date {
+    margin: 0;
+    color: #9AA3B5;
+    font-size: 12px;
+}
+
+/*---------------------------News Description---------------------------*/
+.news-desc {
+    display: -webkit-box;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    color: #B8C0D0;
+    font-size: 14px;
+    line-height: 1.8;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+/*---------------------------News Card Link---------------------------*/
+.news-item-dat a {
+    margin-top: auto;
+    text-decoration: none;
+}
+
+/*---------------------------News Card Button---------------------------*/
+.news-item-dat a button {
+    padding: 9px 15px;
+    background: #252D3D;
+    color: #D5D9E3;
+    border: 1px solid #414C61;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.news-item-dat a button:hover {
+    background: #F59E0B;
+    color: #171C29;
+    border-color: #F59E0B;
+}
